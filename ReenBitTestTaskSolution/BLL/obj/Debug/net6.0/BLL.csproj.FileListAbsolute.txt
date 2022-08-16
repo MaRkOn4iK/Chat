@@ -1,0 +1,12 @@
+D:\ReenbitProject\Chat\ReenBitTestTaskSolution\BLL\bin\Debug\net6.0\BLL.deps.json
+D:\ReenbitProject\Chat\ReenBitTestTaskSolution\BLL\bin\Debug\net6.0\BLL.dll
+D:\ReenbitProject\Chat\ReenBitTestTaskSolution\BLL\bin\Debug\net6.0\BLL.pdb
+D:\ReenbitProject\Chat\ReenBitTestTaskSolution\BLL\obj\Debug\net6.0\BLL.csproj.AssemblyReference.cache
+D:\ReenbitProject\Chat\ReenBitTestTaskSolution\BLL\obj\Debug\net6.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\ReenbitProject\Chat\ReenBitTestTaskSolution\BLL\obj\Debug\net6.0\BLL.AssemblyInfoInputs.cache
+D:\ReenbitProject\Chat\ReenBitTestTaskSolution\BLL\obj\Debug\net6.0\BLL.AssemblyInfo.cs
+D:\ReenbitProject\Chat\ReenBitTestTaskSolution\BLL\obj\Debug\net6.0\BLL.csproj.CoreCompileInputs.cache
+D:\ReenbitProject\Chat\ReenBitTestTaskSolution\BLL\obj\Debug\net6.0\BLL.dll
+D:\ReenbitProject\Chat\ReenBitTestTaskSolution\BLL\obj\Debug\net6.0\refint\BLL.dll
+D:\ReenbitProject\Chat\ReenBitTestTaskSolution\BLL\obj\Debug\net6.0\BLL.pdb
+D:\ReenbitProject\Chat\ReenBitTestTaskSolution\BLL\obj\Debug\net6.0\ref\BLL.dll
