@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ijvLp8gAW15qzb/eT7VHj7Wj6wVd1FtUsgZW+RYINSk7r4g/EgpStgPwiFzATWPhp3y/jZzS9Foy5bBvOPJhFQ==",
+  "success": true,
+  "projectFilePath": "D:\\ReenbitProject\\Chat\\ReenBitTestTaskSolution\\BLL\\BLL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\38066\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\38066\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
