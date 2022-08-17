@@ -7,22 +7,22 @@ namespace DAL.Repositories
 {
     internal class GroupRepository : IRepository<Group>
     {
-        private ChatDbContext context;
+        private readonly ChatDbContext context;
         public GroupRepository(ChatDbContext context)
         {
             this.context = context;
         }
         public async Task AddAsync(Group entity)
         {
-            await this.context.Groups.AddAsync(entity);
+            _ = await context.Groups.AddAsync(entity);
         }
 
         public async Task DeleteByIdAsync(int id)
         {
-            var tmp = await this.context.Groups.FirstOrDefaultAsync(c => c.Id == id);
+            Group? tmp = await context.Groups.FirstOrDefaultAsync(c => c.Id == id);
             if (tmp != null)
             {
-                this.context.Groups.Remove(tmp);
+                _ = context.Groups.Remove(tmp);
             }
         }
 

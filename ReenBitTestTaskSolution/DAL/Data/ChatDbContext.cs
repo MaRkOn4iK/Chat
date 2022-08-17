@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DAL.Data
 {
-    internal class ChatDbContext : DbContext
+    public class ChatDbContext : DbContext
     {
         public virtual DbSet<Group> Groups { get; set; }
         public virtual DbSet<Person> People { get; set; }

@@ -4,7 +4,7 @@ using DAL.Repositories;
 
 namespace DAL.Data
 {
-    internal class UnitOfWork : IUnitOfWork
+    public class UnitOfWork : IUnitOfWork
     {
         private readonly ChatDbContext _context;
         private IRepository<Person> _personRepository;

@@ -7,22 +7,22 @@ namespace DAL.Repositories
 {
     internal class MessageRepository : IRepository<Message>
     {
-        private ChatDbContext context;
+        private readonly ChatDbContext context;
         public MessageRepository(ChatDbContext context)
         {
             this.context = context;
         }
         public async Task AddAsync(Message entity)
         {
-            await this.context.Messages.AddAsync(entity);
+            _ = await context.Messages.AddAsync(entity);
         }
 
         public async Task DeleteByIdAsync(int id)
         {
-            var tmp = await this.context.Messages.FirstOrDefaultAsync(c => c.Id == id);
+            Message? tmp = await context.Messages.FirstOrDefaultAsync(c => c.Id == id);
             if (tmp != null)
             {
-                this.context.Messages.Remove(tmp);
+                _ = context.Messages.Remove(tmp);
             }
         }
 
